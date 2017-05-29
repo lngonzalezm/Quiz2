@@ -24,7 +24,7 @@ public class InformacionDesencriptada {
          public void mostrarTexto()   
          {
  
-                for(int j=1;j<=30;j++)
+                for(int j=1;j<=archivos.lineas;j++)
                 {
                 tipo = "";
                 Student.Nombre = "";
