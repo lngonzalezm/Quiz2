@@ -35,5 +35,5 @@ public class archivos {
         return texto;
     }
     
-    public static String d = leertxt("C:\\Users\\Sergio y Camilo\\Desktop\\Tareas, trabajos y otras cosas sergio\\POO_Final\\datos.txt");
+    public static String d = leertxt("datos.txt");
 }
