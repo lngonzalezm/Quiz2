@@ -14,6 +14,7 @@ import java.io.*;
  */
 public class archivos {
     
+    public static int lineas = 0;
     public static String leertxt(String direccion){
         String texto = "";
         
@@ -23,7 +24,7 @@ public class archivos {
             String bfRead;
             while((bfRead = bf.readLine()) != null){
                 temp = temp + bfRead;
-                       
+                lineas = lineas + 1;   
             }
             
            texto = temp; 
